@@ -2,6 +2,12 @@
     <head>
         <title>Register</title>
         <link rel="stylesheet" href="new_user.css">
+        <script LANGUAGE="JavaScript" type="text/javascript">
+            function display() {
+                var name = document.getElementById("email").value;
+                alert("welcome "+name); 
+            }
+        </script>
     </head>
     <body>
         <h1>Register Your self</h1>
@@ -17,7 +23,7 @@
                 <input type="number" placeholder="Enter your Phone no."  >
                 
                 <p>Email</p>
-                <input type="text" placeholder="Email"   > 
+                <input type="text" id="email" placeholder="Email"   > 
                 
                 <p>Address</p>
                 
