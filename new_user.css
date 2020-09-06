@@ -10,6 +10,10 @@ body{
     color: white;
     text-align: center;
 }
+.container_1 {
+	background-color: lightblue;
+	
+}
  .form input {
     font-size: 1em;
     color: black;

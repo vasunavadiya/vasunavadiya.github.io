@@ -10,6 +10,18 @@ body {
 center{
 	color: red;
 }
+.container_1 {
+	background-color: lightblue;
+	
+}
+.container_1 a{
+	
+	color: black;
+}
+.nav-item a{
+	
+	color: black;
+}
 .fullpage {
     padding: 3em 0;
 }
@@ -146,6 +158,8 @@ label{
 	 padding: 15px 0px;
 	 color: #01cd74;
  }
-
+a{
+	color: black;
+}
 h1{color:green}
 p{color:red; align-content: center;}
